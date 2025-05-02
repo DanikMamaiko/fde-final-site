@@ -91,6 +91,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const translations = {
     'ru': {
+        'submenu.hostel': 'Общежитие',
+        'submenu.open_days': 'Дни открытых дверей',
+        'submenu.open_door_day': 'Дни открытых дверей',
+        'submenu.introductory_campaign': 'Вступительная кампания',
+
         // Меню
         'menu.about': 'О факультете',
         'menu.for_students': 'Студенту',
@@ -141,6 +146,10 @@ const translations = {
         'footer.copyright': '© 2019-2025 БГЭУ ФЦЭ'
     },
     'be': {
+        'submenu.hostel': 'Гуртожытак',
+        'submenu.open_days': 'Дні адкрытых дзвярэй',
+        'submenu.open_door_day': 'Дні адкрытых дзвярэй',
+        'submenu.introductory_campaign': 'Уступная кампанія',
         // Меню
         'menu.about': 'Аб факультэце',
         'menu.for_students': 'Студэнту',
@@ -191,6 +200,11 @@ const translations = {
         'footer.copyright': '© 2019-2025 БДЭУ ФЛЭ'
     },
     'en': {
+        'submenu.hostel': 'Dormitory',
+        'submenu.open_days': 'Open days',
+        'submenu.open_door_day': 'Open days',
+        'submenu.introductory_campaign': 'Admission campaign',
+
         // Меню
         'menu.about': 'About Faculty',
         'menu.for_students': 'For Students',
@@ -241,6 +255,11 @@ const translations = {
         'footer.copyright': '© 2019-2025 BSEU FDE'
     },
     'zh': {
+        'submenu.hostel': '宿舍',
+        'submenu.open_days': '开放日',
+        'submenu.open_door_day': '开放日',
+        'submenu.introductory_campaign': '招生季',
+        
         // Меню
         'menu.about': '关于学院',
         'menu.for_students': '给学生',
