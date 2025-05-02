@@ -262,6 +262,7 @@ body {
     .inner-container {
         margin-top: 60px;
         padding: 0 16px;
+        padding-top: 60px;
         max-width: 100%;
     }
 
@@ -423,6 +424,7 @@ body {
 
 /* Мобильная версия новостей (по умолчанию) */
 .news-container {
+    padding-top: 60px;
     width: 350px;
     margin: 0 auto;
     position: relative;

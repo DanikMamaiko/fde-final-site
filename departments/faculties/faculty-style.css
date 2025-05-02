@@ -216,6 +216,7 @@ body {
     margin: 0 auto;
     flex: 1;
     margin-top: 139px;
+    
 }
 
 .inner-title p {
@@ -226,6 +227,7 @@ body {
     font-weight: 600;
     line-height: 101.336%;
     letter-spacing: -1.56px;
+    padding-top: 60px;
 }
 
 .block1 {
