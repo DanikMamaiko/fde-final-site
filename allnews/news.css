@@ -211,8 +211,9 @@ body {
     }
 }
 
-/* Стили для мобильного хедера */
+/* ================= HEADER MOBILE VERSION ================= */
 @media (max-width: 999px) {
+
     .header-background {
         position: fixed;
         background: rgba(255, 255, 255, 0.95); /* Changed to semi-transparent white */
@@ -226,7 +227,7 @@ body {
 
     .mobile-header {
         box-sizing: border-box;
-        font-family: 'Montserrat', sans-serif;
+        font-family: Ubuntu;
         position: fixed; /* Changed from relative to fixed */
         top: 0;
         left: 0;
@@ -259,23 +260,16 @@ body {
         transition: transform 0.3s ease;
     }
 
-    .inner-container {
-        margin-top: 60px;
-        padding: 0 16px;
-        padding-top: 60px;
-        max-width: 100%;
-    }
-
     .burger-menu div {
         width: 26px;
         height: 2px;
-        background: #99CCFF;
+        background: #2061B9;
         transition: all 0.3s ease;
     }
 
     .burger-menu.active div:nth-child(1) {
         transform: translateY(7px) rotate(45deg);
-        background: #99CCFF;
+        background: #2061B9;
     }
 
     .burger-menu.active div:nth-child(2) {
@@ -284,7 +278,7 @@ body {
 
     .burger-menu.active div:nth-child(3) {
         transform: translateY(-7px) rotate(-45deg);
-        background: #99CCFF;
+        background: #2061B9;
     }
 
     .side-menu {
@@ -365,7 +359,7 @@ body {
     .submenu a {
         display: block;
         padding: 10px 20px 10px 40px;
-        color: #0066CC;
+        color: #2061B9;
         text-decoration: none;
         font-size: 16px;
         border-top: 1px solid #E6F0FA;
@@ -392,7 +386,7 @@ body {
         transition: all 0.3s;
         filter: invert(30%) sepia(100%) saturate(1000%) hue-rotate(190deg);
     }
-    
+
     .mobile-language-icon:hover {
         transform: scale(1.1);
         filter: invert(50%) sepia(100%) saturate(1000%) hue-rotate(180deg);
@@ -404,7 +398,7 @@ body {
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(0, 0, 0, 0.5);
+        background: rgba(0, 0, 0, 0.5);
         z-index: 998;
         opacity: 0;
         visibility: hidden;
@@ -416,7 +410,6 @@ body {
         visibility: visible;
     }
 
-    /* Скрываем десктопную версию на мобильных */
     .desktop-header-wrapper {
         display: none;
     }

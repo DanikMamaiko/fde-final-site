@@ -519,9 +519,9 @@ button[type="submit"]::after {
     letter-spacing: -0.66px;
 }
 
-/* ================= HEADER МОБИЛЬНАЯ ВЕРСИЯ ================= */
+/* ================= HEADER MOBILE VERSION ================= */
 @media (max-width: 999px) {
-    /* Фон */
+
     .header-background {
         position: fixed;
         background: rgba(255, 255, 255, 0.95); /* Changed to semi-transparent white */
@@ -571,13 +571,13 @@ button[type="submit"]::after {
     .burger-menu div {
         width: 26px;
         height: 2px;
-        background: #99CCFF;
+        background: #2061B9;
         transition: all 0.3s ease;
     }
 
     .burger-menu.active div:nth-child(1) {
         transform: translateY(7px) rotate(45deg);
-        background: #99CCFF;
+        background: #2061B9;
     }
 
     .burger-menu.active div:nth-child(2) {
@@ -586,7 +586,7 @@ button[type="submit"]::after {
 
     .burger-menu.active div:nth-child(3) {
         transform: translateY(-7px) rotate(-45deg);
-        background: #99CCFF;
+        background: #2061B9;
     }
 
     .side-menu {
@@ -667,7 +667,7 @@ button[type="submit"]::after {
     .submenu a {
         display: block;
         padding: 10px 20px 10px 40px;
-        color: #0066CC;
+        color: #2061B9;
         text-decoration: none;
         font-size: 16px;
         border-top: 1px solid #E6F0FA;
@@ -694,7 +694,7 @@ button[type="submit"]::after {
         transition: all 0.3s;
         filter: invert(30%) sepia(100%) saturate(1000%) hue-rotate(190deg);
     }
-    
+
     .mobile-language-icon:hover {
         transform: scale(1.1);
         filter: invert(50%) sepia(100%) saturate(1000%) hue-rotate(180deg);
@@ -718,12 +718,10 @@ button[type="submit"]::after {
         visibility: visible;
     }
 
-    /* Скрываем десктопную версию на мобильных */
     .desktop-header-wrapper {
         display: none;
     }
 }
-
 
 @media (max-width: 999px) {
     .inner-container {

@@ -451,7 +451,7 @@ body {
 
 /* ================= HEADER MOBILE VERSION ================= */
 @media (max-width: 999px) {
-    /* Фон */
+
     .header-background {
         position: fixed;
         background: rgba(255, 255, 255, 0.95); /* Changed to semi-transparent white */
@@ -501,13 +501,13 @@ body {
     .burger-menu div {
         width: 26px;
         height: 2px;
-        background: #99CCFF;
+        background: #2061B9;
         transition: all 0.3s ease;
     }
 
     .burger-menu.active div:nth-child(1) {
         transform: translateY(7px) rotate(45deg);
-        background: #99CCFF;
+        background: #2061B9;
     }
 
     .burger-menu.active div:nth-child(2) {
@@ -516,7 +516,7 @@ body {
 
     .burger-menu.active div:nth-child(3) {
         transform: translateY(-7px) rotate(-45deg);
-        background: #99CCFF;
+        background: #2061B9;
     }
 
     .side-menu {
@@ -597,7 +597,7 @@ body {
     .submenu a {
         display: block;
         padding: 10px 20px 10px 40px;
-        color: #0066CC;
+        color: #2061B9;
         text-decoration: none;
         font-size: 16px;
         border-top: 1px solid #E6F0FA;
@@ -648,12 +648,10 @@ body {
         visibility: visible;
     }
 
-    /* Скрываем десктопную версию на мобильных */
     .desktop-header-wrapper {
         display: none;
     }
 }
-
 
 
 /* ================= CONTENT MOBILE VERSION ================= */
