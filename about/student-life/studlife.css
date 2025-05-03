@@ -28,7 +28,7 @@ body {
         position: relative;
         margin: 0;
         box-sizing: border-box;
-        font-family: 'Montserrat', sans-serif;
+        font-family: Ubuntu;
     }
 
     .desktop-header-container {
@@ -65,7 +65,7 @@ body {
     }
 
     .desktop-menu a {
-        color: #007AFF;
+        color: #2061B9;
         font-size: 18px;
         font-weight: 600;
         text-decoration: none;
@@ -76,7 +76,7 @@ body {
     }
 
     .desktop-menu a:hover {
-        color: #0066cc;
+        color: #2061B9;
     }
 
     .desktop-submenu {
@@ -125,7 +125,7 @@ body {
     } 
 
     .submenu-item:hover {
-        color: #0066cc;
+        color: #2061B9;
     }
 
     .submenu-title {
@@ -223,7 +223,7 @@ body {
 
 .inner-title p {
     color: #2E3146;
-    font-family: Montserrat, sans-serif;
+    font-family: Ubuntu;
     font-size: 52px;
     font-style: normal;
     font-weight: 600;
@@ -234,7 +234,7 @@ body {
 
 .stud-desc {
     color: #2E3146;
-    font-family: Montserrat, sans-serif;
+    font-family: Ubuntu;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -262,7 +262,7 @@ body {
 
 .block-text {
     color: #2E3146;
-    font-family: Montserrat, sans-serif;
+    font-family: Ubuntu;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -271,8 +271,8 @@ body {
 }
 
 .decor-text {
-    color: #0094FF;
-    font-family: Montserrat, sans-serif;
+    color: #2061B9;
+    font-family: Ubuntu;
     font-size: 22px;
     font-style: normal;
     font-weight: 600;
@@ -294,7 +294,7 @@ body {
     justify-content: center;
     width: 62px;
     height: 62px;
-    background: #0094FF;
+    background: #2061B9;
     border-radius: 8px;
     transition: all 0.3s ease;
     cursor: pointer;
@@ -321,7 +321,7 @@ body {
 
 .blocks-info div {
     color: #2E3146;
-    font-family: Montserrat, sans-serif;
+    font-family: Ubuntu;
     font-size: 18px;
     font-weight: 500;
     line-height: 1.4;
@@ -336,7 +336,7 @@ body {
     display: block;
     width: 100%;
     height: 1px;
-    background: #007AFF;
+    background: #2061B9;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -356,8 +356,8 @@ body {
 }
 
 .final-block {
-    color: #0094FF;
-    font-family: Montserrat, sans-serif;
+    color: #2061B9;
+    font-family: Ubuntu;
     font-size: 22px;
     font-style: normal;
     font-weight: 500;
@@ -368,7 +368,7 @@ body {
 
 .list {
     color: #000;
-    font-family: Montserrat, sans-serif;
+    font-family: Ubuntu;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -390,7 +390,7 @@ body {
 
 .list li::before {
     content: "•";
-    color: #0094FF;
+    color: #2061B9;
     font-size: 28px;
     position: absolute;
     left: 0;
@@ -410,7 +410,7 @@ body {
 .footer {
     width: 100%;
     height: 520px;
-    background: linear-gradient(97.19deg, #0094FF 0.78%, #005999 99.22%);
+    background: linear-gradient(97.19deg, #2061B9 0.78%, #005999 99.22%);
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -545,7 +545,7 @@ body {
 
     .mobile-header {
         box-sizing: border-box;
-        font-family: 'Montserrat', sans-serif;
+        font-family: Ubuntu;
         position: fixed; /* Changed from relative to fixed */
         top: 0;
         left: 0;
@@ -623,7 +623,7 @@ body {
 
     .menu-title {
         padding: 15px 20px;
-        color: #0066CC;
+        color: #2061B9;
         font-size: 18px;
         font-weight: 500;
         display: flex;
@@ -677,7 +677,7 @@ body {
     .submenu a {
         display: block;
         padding: 10px 20px 10px 40px;
-        color: #0066CC;
+        color: #2061B9;
         text-decoration: none;
         font-size: 16px;
         border-top: 1px solid #E6F0FA;

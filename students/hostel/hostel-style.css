@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -30,7 +29,7 @@ body {
         position: relative;
         margin: 0;
         box-sizing: border-box;
-        font-family: 'Montserrat', sans-serif;
+        font-family: Ubuntu;
     }
 
     .desktop-header-container {
@@ -225,7 +224,7 @@ body {
 
 .hostel-title {
     color: #2E3146;
-    font-family: Montserrat;
+    font-family: Ubuntu;
     font-size: 52px;
     font-style: normal;
     font-weight: 600;
@@ -235,7 +234,7 @@ body {
 
 .hostel-text {
     color: #000;
-    font-family: Montserrat;
+    font-family: Ubuntu;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -252,8 +251,8 @@ body {
 }
 
 .bold {
-    color: #0094FF;
-    font-family: Montserrat;
+    color: #2061B9;
+    font-family: Ubuntu;
     font-size: 22px;
     font-style: normal;
     font-weight: 600;
@@ -262,8 +261,8 @@ body {
 }
 
 .key-info-title {
-    color: #0094FF;
-    font-family: Montserrat;
+    color: #2061B9;
+    font-family: Ubuntu;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -273,7 +272,7 @@ body {
 
 .block p {
     color: #000;
-    font-family: Montserrat;
+    font-family: Ubuntu;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -282,8 +281,8 @@ body {
 }
 
 .block a {
-    color: #0094FF;
-    font-family: Montserrat;
+    color: #2061B9;
+    font-family: Ubuntu;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -306,7 +305,7 @@ body {
 .footer {
     width: 100%;
     height: 520px;
-    background: linear-gradient(97.19deg, #0094FF 0.78%, #005999 99.22%);
+    background: linear-gradient(97.19deg, #2061B9 0.78%, #005999 99.22%);
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -440,7 +439,7 @@ body {
 
     .mobile-header {
         box-sizing: border-box;
-        font-family: 'Montserrat', sans-serif;
+        font-family: Ubuntu;
         position: fixed; /* Changed from relative to fixed */
         top: 0;
         left: 0;
@@ -651,7 +650,7 @@ body {
         letter-spacing: -0.48px;
         line-height: 1.5;
         color: #000;
-        font-family: Montserrat;
+        font-family: Ubuntu;
         font-style: normal;
         font-weight: 400;
     }
@@ -670,8 +669,8 @@ body {
     }
 
     .bold {
-        color: #0094FF;
-        font-family: Montserrat;
+        color: #2061B9;
+        font-family: Ubuntu;
         font-size: 18px;
         font-style: normal;
         font-weight: 600;

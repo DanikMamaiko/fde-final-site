@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -28,7 +27,7 @@ body {
         position: relative;
         margin: 0;
         box-sizing: border-box;
-        font-family: 'Montserrat', sans-serif;
+        font-family: Ubuntu;
     }
 
     .desktop-header-container {
@@ -65,7 +64,7 @@ body {
     }
 
     .desktop-menu a {
-        color: #007AFF;
+        color: #2061B9;
         font-size: 18px;
         font-weight: 600;
         text-decoration: none;
@@ -223,7 +222,7 @@ body {
 
 .documentsList-title {
     color: #2E3146;
-    font-family: Montserrat;
+    font-family: Ubuntu;
     font-size: 52px;
     font-style: normal;
     font-weight: 600;
@@ -238,7 +237,7 @@ body {
 
 .docListDesc p {
     color: #000;
-    font-family: Montserrat;
+    font-family: Ubuntu;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -247,8 +246,8 @@ body {
 }
 
 .docListDesc a {
-    color: #007AFF;
-    font-family: Montserrat;
+    color: #2061B9;
+    font-family: Ubuntu;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -278,7 +277,7 @@ body {
     justify-content: center;
     flex-shrink: 0;
     color: rgba(0, 122, 255, 0.30);
-    font-family: Montserrat;
+    font-family: Ubuntu;
     font-size: 102px;
     font-style: normal;
     font-weight: 600;
@@ -295,8 +294,8 @@ body {
 }
 
 .listDescTitle {
-    color: #007AFF;
-    font-family: Montserrat;
+    color: #2061B9;
+    font-family: Ubuntu;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -307,7 +306,7 @@ body {
 
 .listDescText {
     color: #000;
-    font-family: Montserrat;
+    font-family: Ubuntu;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -318,7 +317,7 @@ body {
 
 .lastDesc {
     color: #000;
-    font-family: Montserrat;
+    font-family: Ubuntu;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -330,7 +329,7 @@ body {
 
 .moreDetailInfo p {
     color: #000;
-    font-family: Montserrat;
+    font-family: Ubuntu;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -339,8 +338,8 @@ body {
 }
 
 .moreDetailInfo a {
-    color: #007AFF;
-    font-family: Montserrat;
+    color: #2061B9;
+    font-family: Ubuntu;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -358,7 +357,7 @@ body {
 .footer {
     width: 100%;
     height: 520px;
-    background: linear-gradient(97.19deg, #0094FF 0.78%, #005999 99.22%);
+    background: linear-gradient(97.19deg, #2061B9 0.78%, #005999 99.22%);
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -492,7 +491,7 @@ body {
 
     .mobile-header {
         box-sizing: border-box;
-        font-family: 'Montserrat', sans-serif;
+        font-family: Ubuntu;
         position: fixed; /* Changed from relative to fixed */
         top: 0;
         left: 0;

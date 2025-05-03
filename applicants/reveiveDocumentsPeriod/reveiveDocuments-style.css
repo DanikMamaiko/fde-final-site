@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -26,7 +25,7 @@ body {
         position: relative;
         margin: 0;
         box-sizing: border-box;
-        font-family: 'Montserrat', sans-serif;
+        font-family: Ubuntu;
     }
 
     .desktop-header-container {
@@ -63,7 +62,7 @@ body {
     }
 
     .desktop-menu a {
-        color: #007AFF;
+        color: #2061B9;
         font-size: 18px;
         font-weight: 600;
         text-decoration: none;
@@ -74,7 +73,7 @@ body {
     }
 
     .desktop-menu a:hover {
-        color: #0066cc;
+        color: #2061B9;
     }
 
     .desktop-submenu {
@@ -123,7 +122,7 @@ body {
     } 
 
     .submenu-item:hover {
-        color: #0066cc;
+        color: #2061B9;
     }
 
     .submenu-title {
@@ -221,7 +220,7 @@ body {
 
 .reveiveDocuments-title {
     color: #2E3146;
-    font-family: Montserrat;
+    font-family: Ubuntu;
     font-size: 52px;
     font-style: normal;
     font-weight: 600;
@@ -231,8 +230,8 @@ body {
 }
 
 .blockBold {
-    color: #007AFF;
-    font-family: Montserrat;
+    color: #2061B9;
+    font-family: Ubuntu;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -249,7 +248,7 @@ body {
 
 .blockText {
     color: #2E3146;
-    font-family: Montserrat;
+    font-family: Ubuntu;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -266,7 +265,7 @@ body {
 .footer {
     width: 100%;
     height: 520px;
-    background: linear-gradient(97.19deg, #0094FF 0.78%, #005999 99.22%);
+    background: linear-gradient(97deg, #144280 0.78%, #005999 99.22%);
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -399,7 +398,7 @@ body {
 
     .mobile-header {
         box-sizing: border-box;
-        font-family: 'Montserrat', sans-serif;
+        font-family: Ubuntu;
         position: fixed; /* Changed from relative to fixed */
         top: 0;
         left: 0;
@@ -477,7 +476,7 @@ body {
 
     .menu-title {
         padding: 15px 20px;
-        color: #0066CC;
+        color: #2061B9;
         font-size: 18px;
         font-weight: 500;
         display: flex;
@@ -506,8 +505,8 @@ body {
         left: 0;
         width: 100%;
         height: 100%;
-        border-left: 2px solid #0066CC;
-        border-top: 2px solid #0066CC;
+        border-left: 2px solid #2061B9;
+        border-top: 2px solid #2061B9;
         transform: rotate(-135deg);
         transform-origin: 25% 25%;
         transition: transform 0.3s;
@@ -531,7 +530,7 @@ body {
     .submenu a {
         display: block;
         padding: 10px 20px 10px 40px;
-        color: #0066CC;
+        color: #2061B9;
         text-decoration: none;
         font-size: 16px;
         border-top: 1px solid #E6F0FA;
@@ -621,7 +620,7 @@ body {
         line-height: 1.4;
         margin-bottom: 20px;
         color: #2E3146;
-        font-family: Montserrat;
+        font-family: Ubuntu;
         font-size: 18px;
         font-style: normal;
         font-weight: 400;

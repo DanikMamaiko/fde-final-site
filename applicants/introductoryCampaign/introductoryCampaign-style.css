@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -26,7 +25,7 @@ body {
         position: relative;
         margin: 0;
         box-sizing: border-box;
-        font-family: 'Montserrat', sans-serif;
+        font-family: Ubuntu;
     }
 
     .desktop-header-container {
@@ -63,7 +62,7 @@ body {
     }
 
     .desktop-menu a {
-        color: #007AFF;
+        color: #2061B9;
         font-size: 18px;
         font-weight: 600;
         text-decoration: none;
@@ -215,7 +214,7 @@ body {
 .inner-container {
     max-width: 1200px;
     margin: 0 auto;
-    font-family: Montserrat, sans-serif;
+    font-family: Ubuntu;
     color: #2E3146;
     margin-top: 209px;
 }
@@ -278,7 +277,7 @@ body {
 }
 
 .rools-desc a {
-    color: #007AFF;
+    color: #2061B9;
     font-size: 22px;
     font-style: normal;
     font-weight: 500;
@@ -294,7 +293,7 @@ body {
 }
 
 .specialization-text p {
-    color: #007AFF;
+    color: #2061B9;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -345,7 +344,7 @@ body {
 }
 
 .spec-graduate p {
-    color: #2E3146;
+    color: #2061B9;
     font-size: 22px;
     font-style: normal;
     font-weight: 600;
@@ -356,7 +355,7 @@ body {
 }
 
 .spec-exams p {
-    color: #2E3146;
+    color: #2061B9;
     font-size: 22px;
     font-style: normal;
     font-weight: 500;
@@ -375,7 +374,7 @@ body {
     align-items: center;
     flex-shrink: 0;
     border-radius: 26px;
-    background: #007AFF;
+    background: #2061B9;
     color: #FFF;
     font-size: 16px;
     font-style: normal;
@@ -425,8 +424,8 @@ body {
 }
 
 .feature-num p {
-    color: #007AFF;
-    font-family: Montserrat;
+    color: #2061B9;
+    font-family: Ubuntu;
     font-size: 100px;
     font-style: normal;
     font-weight: 600;
@@ -479,7 +478,7 @@ body {
 }
 
 .more-info a {
-    color: #007AFF;
+    color: #2061B9;
     font-weight: 500;
     text-decoration: underline;
 }
@@ -490,7 +489,7 @@ body {
 .footer {
     width: 100%;
     height: 520px;
-    background: linear-gradient(97.19deg, #0094FF 0.78%, #005999 99.22%);
+    background: linear-gradient(97.19deg, #2061B9 0.78%, #005999 99.22%);
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -624,7 +623,7 @@ body {
 
     .mobile-header {
         box-sizing: border-box;
-        font-family: 'Montserrat', sans-serif;
+        font-family: Ubuntu;
         position: fixed; /* Changed from relative to fixed */
         top: 0;
         left: 0;
@@ -819,7 +818,7 @@ body {
         margin-top: 120px;
         padding: 0 16px;
         max-width: 100%;
-        font-family: Montserrat, sans-serif;
+        font-family: Ubuntu;
     }
     
     /* Заголовок кампании */
