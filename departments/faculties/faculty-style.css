@@ -27,7 +27,7 @@ body {
         position: relative;
         margin: 0;
         box-sizing: border-box;
-        font-family: 'Montserrat', sans-serif;
+        font-family: Ubuntu;
     }
 
     .desktop-header-container {
@@ -215,13 +215,13 @@ body {
     width: 100%;
     margin: 0 auto;
     flex: 1;
-    margin-top: 139px;
+    margin-top: 119px;
     
 }
 
 .inner-title p {
     color: #2E3146;
-    font-family: Montserrat;
+    font-family: Ubuntu;
     font-size: 52px;
     font-style: normal;
     font-weight: 600;
@@ -231,8 +231,8 @@ body {
 }
 
 .block1 {
-    color: #0094FF;
-    font-family: Montserrat;
+    color: #1651A2;
+    font-family: Ubuntu;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -242,7 +242,7 @@ body {
 
 .block2 {
     color: #000;
-    font-family: Montserrat;
+    font-family: Ubuntu;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -263,8 +263,8 @@ body {
 }
 
 .faculties-block .cont p {
-    color: #0094FF;
-    font-family: Montserrat;
+    color: #1651A2;
+    font-family: Ubuntu;
     font-size: 28px;
     font-style: normal;
     font-weight: 600;
@@ -275,7 +275,7 @@ body {
     height: 87px;
     flex-shrink: 0;
     border-radius: 15px;
-    background: rgba(0, 148, 255, 0.20);
+    background: rgba(7, 121, 202, 0.2);
     
     display: flex;
     align-items: center;
@@ -303,7 +303,7 @@ body {
 
 .faculties-block .cont .desc {
     color: #2E3146;
-    font-family: Montserrat;
+    font-family: Ubuntu;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -331,7 +331,7 @@ body {
 .footer {
     width: 100%;
     height: 520px;
-    background: linear-gradient(97.19deg, #0094FF 0.78%, #005999 99.22%);
+    background: linear-gradient(97.19deg, #1651A2 0.78%, #005999 99.22%);
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -465,7 +465,7 @@ body {
 
     .mobile-header {
         box-sizing: border-box;
-        font-family: 'Montserrat', sans-serif;
+        font-family: Ubuntu;
         position: fixed; /* Changed from relative to fixed */
         top: 0;
         left: 0;
